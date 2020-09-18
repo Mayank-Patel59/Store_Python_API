@@ -4,7 +4,7 @@ Created on Thursday Sep 17 00:06:08 2020
 @author: Mayank patel
 """
 
-# Get Libraries Import here
+# Necessary Library
 import json
 from bson import ObjectId
 from bson.json_util import dumps
@@ -19,7 +19,7 @@ mongo = MongoClient("mongodb://localhost:27017/Movies")  # MongoDb Connection / 
 # Get_Movies Json Data From Mongodb
 @app.route('/Get_Movies')       # Get DB Data through End Point route
 def users():
-    users = mongo.Movies.MovieInformation.find()
+    users = mongo.Movies.MovieInformation.find()        # Database.Collection_Name
     response = dumps(users)
     return response
 

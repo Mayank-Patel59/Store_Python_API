@@ -1,7 +1,5 @@
 # Store_Python_Api
 
-# Store_Python_Api
-
 This is a simple example of Python Flask's usage as a simple "Task Manager".
 The Database Management System is MongoDB. 
 The python-MongoDB connector is PyMongo.
@@ -32,5 +30,5 @@ then, run the program:
 $ python app.py
 ```
 
-Open your browser and go to `localhost:5000	` to see the running program.
+Open your browser and go to `http://127.0.0.1:5000/Get_Movies` to see the running program.
 
